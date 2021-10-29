@@ -112,7 +112,7 @@ exclude = '''
   | 3rd-party
   | data
   | htmlcov
-  | mckit\.egg-info
+  | iww_gvr\.egg-info
   | _tab.py$
   | notebooks
   | tutorial
