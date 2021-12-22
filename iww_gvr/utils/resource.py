@@ -1,5 +1,6 @@
-from pathlib import Path
 from typing import Callable
+
+from pathlib import Path
 
 import pkg_resources as pkg
 
