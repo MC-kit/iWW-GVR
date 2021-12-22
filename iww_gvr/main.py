@@ -1,15 +1,13 @@
-"""The iww_gvr CLI.
+"""The iww_gvr command line interface module."""
 
-Run iww_gvr in interactive mode.
-
-"""
-
-# TODO dvp: if needed, then add here passing command line args, configuring, logging and so on.
 
 from iww_gvr.menu import Menu
 
+# TODO dvp: if needed, then add here passing command line arguments, configuring, logging and so on.
+
 
 def main():
+    """Run iww_gvr in interactive mode."""
     Menu()
 
 

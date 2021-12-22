@@ -1,4 +1,5 @@
-"""
+"""The module to execute a package as a script: start command line interface.
+
 ########################################################################################################
 # Copyright 2019 F4E | European Joint Undertaking for ITER and the Development                         #
 # of Fusion Energy (‘Fusion for Energy’). Licensed under the EUPL, Version 1.2                         #
@@ -11,10 +12,8 @@
 # and limitations under the Licence.                                                                   #
 ########################################################################################################
 Author: Alvaro Cubi
-
-When executing the package as a script the command line interface is started.
 """
-from iww_gvr.menu import Menu
+from iww_gvr.main import main
 
-if __name__ == '__main__':
-    Menu()
+if __name__ == "__main__":
+    main()
